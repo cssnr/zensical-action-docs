@@ -69,11 +69,11 @@ The following outputs are available.
 | **page_url** | Pages URL from [actions/deploy-pages](https://github.com/actions/deploy-pages) |
 | **version**  | Zensical Version Used for Build                                                |
 | **path**     | Site Path Used for Artifact                                                    |
-| **name**     | Artifact Name if `upload` is `artifact`                                        |
+| **name**     | Artifact [name](#name) from [upload](#upload) step                             |
 
 The `path` will always be `site` or what you set for the input `path`.
 
-The `name` will always be `artifact` or what you set for the input [name](#name).
+Example Outputs.
 
 ```yaml
 - name: 'Zensical Action'
@@ -82,10 +82,10 @@ The `name` will always be `artifact` or what you set for the input [name](#name)
 
 - name: 'Echo Output'
   run: |
-    echo "page_url: ${{ steps.zensical.outputs.page_url }}"
-    echo "version: ${{ steps.zensical.outputs.version }}"
-    echo "path: ${{ steps.zensical.outputs.path }}"
-    echo "name: ${{ steps.zensical.outputs.name }}"
+    echo "GitHub page_url: ${{ steps.zensical.outputs.page_url }}"
+    echo "Zensical version: ${{ steps.zensical.outputs.version }}"
+    echo "Site path: ${{ steps.zensical.outputs.path }}"
+    echo "Artifact name: ${{ steps.zensical.outputs.name }}"
 ```
 
 See the [Examples](examples.md) for more...
