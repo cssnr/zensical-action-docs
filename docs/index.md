@@ -66,4 +66,4 @@ jobs:
         uses: cssnr/zensical-action@v1
 ```
 
-See the [Usage](usage.md) for more options and check out additional [Examples](examples.md).
+See the [Usage](usage.md) for more options or check out additional [Examples](examples.md).
