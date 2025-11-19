@@ -16,6 +16,7 @@ concurrency:
 jobs:
   docs:
     name: "Docs"
+    if: ${{ !contains(github.event.head_commit.message, '#nodocs') }}
     runs-on: ubuntu-latest
     timeout-minutes: 5
 
@@ -31,4 +32,11 @@ jobs:
       - name: "Zensical Action"
         id: zensical
         uses: cssnr/zensical-action@v1
-        #uses: smashedr/composite-action@zensical
+
+      - name: "Send Notification"
+        if: ${{ !cancelled() }}
+        continue-on-error: true
+        uses: sarisia/actions-status-discord@v1
+        with:
+          webhook: ${{ secrets.DISCORD_WEBHOOK }}
+          description: ${{ steps.zensical.outputs.page_url }}

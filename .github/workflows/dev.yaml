@@ -21,7 +21,6 @@ jobs:
     steps:
       - name: "Zensical Action"
         uses: cssnr/zensical-action@v1
-        #uses: smashedr/composite-action@zensical
         with:
           upload: "artifact"
 

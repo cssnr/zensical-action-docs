@@ -14,15 +14,16 @@
 
 [Documentation](https://zensical-action.cssnr.com/) for the [Zensical GitHub Action](https://github.com/cssnr/zensical-action) built with... [Zensical](https://github.com/zensical/zensical).
 
-- Website: https://zensical-action.cssnr.com/
+Website: https://zensical-action.cssnr.com/
+
 - Docs Location: [docs](docs)
 - Configuration File: [zensical.toml](zensical.toml)
-- Reference: https://zensical.org/docs/get-started/
+- Reference: https://zensical.org/docs/
 
 Workflows:
 
-- Pages: https://github.com/cssnr/actions-tools/blob/master/.github/workflows/docs.yaml
-- Preview: https://github.com/cssnr/actions-tools/blob/master/.github/workflows/dev.yaml
+- Pages: [.github/workflows/docs.yaml](.github/workflows/docs.yaml)
+- Preview: [.github/workflows/dev.yaml](.github/workflows/dev.yaml)
 
 # Contributing
 
