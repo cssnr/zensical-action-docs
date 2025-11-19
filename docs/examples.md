@@ -2,7 +2,7 @@
 icon: simple/githubactions
 ---
 
-[![Image title](assets/images/logo.png){ align=right }](https://github.com/cssnr/zensical-action?tab=readme-ov-file#readme)
+[![Zensical Action](assets/images/logo.png){ align=right width=96 }](https://github.com/cssnr/zensical-action?tab=readme-ov-file#readme)
 
 # Examples
 
@@ -130,8 +130,9 @@ https://github.com/cssnr/zensical-action/network/dependents
 
 ## Repositories
 
-Example of a full repository using this action to deploy to GitHub Pages and deploy a custom preview workflow.
+Example repositories using this action to deploy to GitHub Pages.
 
-- Repository: https://github.com/cssnr/actions-tools
-- Docs Workflow: https://github.com/cssnr/actions-tools/blob/master/.github/workflows/docs.yaml
-- Preview Workflow: https://github.com/cssnr/actions-tools/blob/master/.github/workflows/dev.yaml
+| Repository&nbsp;Link                                                        |                                               Pages                                                |                                             Preview                                              | Website&nbsp;Link                                               |
+| :-------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------: | :-------------------------------------------------------------- |
+| [cssnr/zensical-action-docs](https://github.com/cssnr/zensical-action-docs) | [docs.yaml](https://github.com/cssnr/zensical-action-docs/blob/master/.github/workflows/docs.yaml) | [dev.yaml](https://github.com/cssnr/zensical-action-docs/blob/master/.github/workflows/dev.yaml) | [zensical-action.cssnr.com](https://zensical-action.cssnr.com/) |
+| [cssnr/actions-tools](https://github.com/cssnr/actions-tools)               |    [docs.yaml](https://github.com/cssnr/actions-tools/blob/master/.github/workflows/docs.yaml)     |    [dev.yaml](https://github.com/cssnr/actions-tools/blob/master/.github/workflows/dev.yaml)     | [actions-tools.cssnr.com](https://actions-tools.cssnr.com/)     |

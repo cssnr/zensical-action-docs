@@ -2,11 +2,11 @@
 icon: lucide/message-circle-question-mark
 ---
 
-[![Image title](assets/images/logo.png){ align=right }](https://github.com/cssnr/zensical-action?tab=readme-ov-file#readme)
+[![Zensical Action](assets/images/logo.png){ align=right width=96 }](https://github.com/cssnr/zensical-action?tab=readme-ov-file#readme)
 
 # Support
 
-If you run into any [issues](https://github.com/cssnr/zensical-action/issues),
+If you run into any [issues](https://github.com/cssnr/zensical-action/issues)
 or just want to see more [features](https://github.com/cssnr/zensical-action/discussions/categories/feature-requests), please let us know...
 :material-information-outline:{ title="All issues will be responded too!" }
 

@@ -2,7 +2,7 @@
 icon: lucide/notebook-pen
 ---
 
-[![Image title](assets/images/logo.png){ align=right }](https://github.com/cssnr/zensical-action?tab=readme-ov-file#readme)
+[![Zensical Action](assets/images/logo.png){ align=right width=96 }](https://github.com/cssnr/zensical-action?tab=readme-ov-file#readme)
 
 # Usage
 
@@ -15,17 +15,17 @@ Zensical Action [Inputs](#inputs), [Permissions](#permissions) and [Outputs](#ou
 By default, the workflow reference is checked out, built, uploaded, and deployed to Pages.
 
 | Input              | Default&nbsp;Value | Description&nbsp;of&nbsp;the&nbsp;Input                                                          |
-| :----------------- | :----------------- | :----------------------------------------------------------------------------------------------- |
-| **version**        | _Latest_           | Zensial Version                                                                                  |
-| **python-version** | _Default_          | Python Version (see [setup-uv](https://github.com/astral-sh/setup-uv?tab=readme-ov-file#inputs)) |
-| **uv-version**     | _Latest_           | UV Version (see [setup-uv](https://github.com/astral-sh/setup-uv?tab=readme-ov-file#inputs))     |
-| **directory**      | `.`                | Build Directory (relative to root)                                                               |
-| **path**           | `site`             | Site Path (relative to root)                                                                     |
-| **checkout**       | `true`             | Runs: [actions/checkout](https://github.com/actions/checkout)                                    |
-| [upload](#upload)  | `github-pages`     | Upload: [`github-pages`,`artifact`,`none`]                                                       |
-| [name](#name)      | `artifact`         | Artifact Name if [upload](#upload) is `artifact`                                                 |
-| [deploy](#deploy)  | `true`             | Deploy Pages (upload: `github-pages`)                                                            |
-| **summary**        | `true`             | Add Job Summary                                                                                  |
+| :----------------- | :----------------: | :----------------------------------------------------------------------------------------------- |
+| **version**        |      _Latest_      | Zensial Version                                                                                  |
+| **python-version** |     _Default_      | Python Version (see [setup-uv](https://github.com/astral-sh/setup-uv?tab=readme-ov-file#inputs)) |
+| **uv-version**     |      _Latest_      | UV Version (see [setup-uv](https://github.com/astral-sh/setup-uv?tab=readme-ov-file#inputs))     |
+| **directory**      |        `.`         | Build Directory (relative to root)                                                               |
+| **path**           |       `site`       | Site Path (relative to root)                                                                     |
+| **checkout**       |       `true`       | Runs: [actions/checkout](https://github.com/actions/checkout)                                    |
+| [upload](#upload)  |   `github-pages`   | Upload: [`github-pages`,`artifact`,`none`]                                                       |
+| [name](#name)      |     `artifact`     | Artifact Name if [upload](#upload) is `artifact`                                                 |
+| [deploy](#deploy)  |       `true`       | Deploy Pages (upload: `github-pages`)                                                            |
+| **summary**        |       `true`       | Add Job Summary                                                                                  |
 
 #### upload
 
@@ -41,10 +41,10 @@ Default: `artifact`
 
 #### deploy
 
-This runs [actions/deploy-pages](https://github.com/actions/deploy-pages). Set to `false` to skip this.
+This runs [actions/deploy-pages](https://github.com/actions/deploy-pages). Set to `false` to skip this.  
 Make sure you have the required [permissions](#permissions).
 
-Do not change [upload](#upload) from the default `github-pages` or this will be skipped.
+If you set [upload](#upload) to anything except `github-pages` this step will be skipped.
 
 Default: `true`
 
@@ -62,12 +62,12 @@ permissions:
 
 The following outputs are available.
 
-| Output       | Description                             |
-| :----------- | :-------------------------------------- |
-| **page_url** | Pages URL from actions/deploy-pages     |
-| **version**  | Zensical Version Used for Build         |
-| **path**     | Site Path Used for Artifact             |
-| **name**     | Artifact Name if `upload` is `artifact` |
+| Output       | Description                                                                    |
+| :----------- | :----------------------------------------------------------------------------- |
+| **page_url** | Pages URL from [actions/deploy-pages](https://github.com/actions/deploy-pages) |
+| **version**  | Zensical Version Used for Build                                                |
+| **path**     | Site Path Used for Artifact                                                    |
+| **name**     | Artifact Name if `upload` is `artifact`                                        |
 
 The `path` will always be `site` or what you set for the input `path`.
 
