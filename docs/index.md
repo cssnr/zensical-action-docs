@@ -18,7 +18,7 @@ icon: lucide/rocket
 [![Discord](https://img.shields.io/discord/899171661457293343?logo=discord&logoColor=white&label=discord&color=7289da)](https://discord.gg/wXy6m2X8wY)
 [![Ko-fi](https://img.shields.io/badge/Ko--fi-72a5f2?logo=kofi&label=support)](https://ko-fi.com/cssnr)
 
-# Get Started
+# :lucide-rocket: Get Started
 
 Zensical GitHub Action to checkout, build, upload, and deploy [Zensical Docs](https://github.com/zensical/zensical) to GitHub Pages.
 

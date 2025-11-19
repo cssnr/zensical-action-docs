@@ -4,7 +4,7 @@ icon: lucide/notebook-pen
 
 [![Zensical Action](assets/images/logo.png){ align=right width=96 }](https://github.com/cssnr/zensical-action?tab=readme-ov-file#readme)
 
-# Usage
+# :lucide-notebook-pen: Usage
 
 With no inputs the workflow reference is checked out, built, uploaded, and deployed to Pages.
 

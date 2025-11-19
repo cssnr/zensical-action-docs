@@ -4,7 +4,7 @@ icon: lucide/message-circle-question-mark
 
 [![Zensical Action](assets/images/logo.png){ align=right width=96 }](https://github.com/cssnr/zensical-action?tab=readme-ov-file#readme)
 
-# Support
+# :lucide-message-circle-question-mark: Support
 
 If you run into any [issues](https://github.com/cssnr/zensical-action/issues),
 want to see more [features](https://github.com/cssnr/zensical-action/discussions/categories/feature-requests)

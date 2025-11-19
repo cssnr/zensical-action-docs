@@ -4,7 +4,7 @@ icon: simple/githubactions
 
 [![Zensical Action](assets/images/logo.png){ align=right width=96 }](https://github.com/cssnr/zensical-action?tab=readme-ov-file#readme)
 
-# Examples
+# :simple-githubactions: Examples
 
 Zensical Action example [Workflows](#workflows) and [Repositories](#repositories).
 
