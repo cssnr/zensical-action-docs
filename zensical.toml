@@ -19,7 +19,7 @@ Built with <a href="https://github.com/zensical/zensical" target="_blank">Zensic
 
 # https://zensical.org/docs/setup/navigation/
 nav = [
-    {"Home" = "index.md"},
+    {"Get Started" = "index.md"},
     {"Usage" = "usage.md"},
     {"Examples" = "examples.md"},
     {"Support" = "support.md"},
@@ -153,6 +153,10 @@ toggle.name = "Switch to system preference"
 # ----------------------------------------------------------------------------
 [project.theme.icon]
 repo = "fontawesome/brands/github"
+
+[project.theme.icon.admonition]
+note = "simple/githubactions"
+#action = "simple/githubactions"
 
 # ----------------------------------------------------------------------------
 # The "extra" section contains miscellaneous settings.

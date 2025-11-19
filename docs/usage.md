@@ -4,15 +4,17 @@ icon: lucide/notebook-pen
 
 [![Zensical Action](assets/images/logo.png){ align=right width=96 }](https://github.com/cssnr/zensical-action?tab=readme-ov-file#readme)
 
-# Usage
+# :lucide-notebook-pen: Usage
 
-Zensical Action [Inputs](#inputs), [Permissions](#permissions) and [Outputs](#outputs).
+With no inputs the workflow reference is checked out, built, uploaded, and deployed to Pages.
+
+- [Inputs](#inputs)
+- [Permissions](#permissions)
+- [Outputs](#outputs)
 
 ## Inputs
 
 **All Inputs are Optional.**
-
-By default, the workflow reference is checked out, built, uploaded, and deployed to Pages.
 
 | Input              | Default&nbsp;Value | Description&nbsp;of&nbsp;the&nbsp;Input                                                          |
 | :----------------- | :----------------: | :----------------------------------------------------------------------------------------------- |
@@ -22,24 +24,24 @@ By default, the workflow reference is checked out, built, uploaded, and deployed
 | **directory**      |        `.`         | Build Directory (relative to root)                                                               |
 | **path**           |       `site`       | Site Path (relative to root)                                                                     |
 | **checkout**       |       `true`       | Runs: [actions/checkout](https://github.com/actions/checkout)                                    |
-| [upload](#upload)  |   `github-pages`   | Upload: [`github-pages`,`artifact`,`none`]                                                       |
+| [upload](#upload)  |   `github-pages`   | Upload: [`github-pages`,`artifact`,`false`]                                                      |
 | [name](#name)      |     `artifact`     | Artifact Name if [upload](#upload) is `artifact`                                                 |
-| [deploy](#deploy)  |       `true`       | Deploy Pages (upload: `github-pages`)                                                            |
-| **summary**        |       `true`       | Add Job Summary                                                                                  |
+| [deploy](#deploy)  |       `true`       | Deploy to Pages (see [deploy](#deploy))                                                          |
+| **summary**        |       `true`       | Add Job Summary to Workflow                                                                      |
 
-#### upload
+### upload
 
 Determines the type of artifact uploaded. For a normal artifact use `artifact`.
 
 Default: `github-pages`
 
-#### name
+### name
 
 Artifact Name if [upload](#upload) is set to `artifact`.
 
 Default: `artifact`
 
-#### deploy
+### deploy
 
 This runs [actions/deploy-pages](https://github.com/actions/deploy-pages). Set to `false` to skip this.  
 Make sure you have the required [permissions](#permissions).
@@ -67,11 +69,11 @@ The following outputs are available.
 | **page_url** | Pages URL from [actions/deploy-pages](https://github.com/actions/deploy-pages) |
 | **version**  | Zensical Version Used for Build                                                |
 | **path**     | Site Path Used for Artifact                                                    |
-| **name**     | Artifact Name if `upload` is `artifact`                                        |
+| **name**     | Artifact [name](#name) from [upload](#upload) step                             |
 
 The `path` will always be `site` or what you set for the input `path`.
 
-The `name` will always be `artifact` or what you set for the input [name](#name).
+Example Outputs.
 
 ```yaml
 - name: 'Zensical Action'
@@ -80,10 +82,10 @@ The `name` will always be `artifact` or what you set for the input [name](#name)
 
 - name: 'Echo Output'
   run: |
-    echo "page_url: ${{ steps.zensical.outputs.page_url }}"
-    echo "version: ${{ steps.zensical.outputs.version }}"
-    echo "path: ${{ steps.zensical.outputs.path }}"
-    echo "name: ${{ steps.zensical.outputs.name }}"
+    echo "GitHub page_url: ${{ steps.zensical.outputs.page_url }}"
+    echo "Zensical version: ${{ steps.zensical.outputs.version }}"
+    echo "Site path: ${{ steps.zensical.outputs.path }}"
+    echo "Artifact name: ${{ steps.zensical.outputs.name }}"
 ```
 
 See the [Examples](examples.md) for more...
