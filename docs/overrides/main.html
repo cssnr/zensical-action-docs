@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block site_meta %}
+  {{ super() }}
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Zensical GitHub Action">
+  <meta property="og:title" content="Zensical Action">
+  <meta property="og:image" content="/assets/images/logo.png">
+  <meta property="og:image:alt" content="Zensical Action">
+
+  <meta property="twitter:card" content="summary">
+  <meta property="twitter:site" content="GitHub Action to checkout, build, upload, and deploy Zensical Docs to GitHub Pages.">
+  <meta property="twitter:title" content="Zensical Action">
+  <meta property="twitter:description" content="GitHub Action to checkout, build, upload, and deploy Zensical Docs to GitHub Pages.">
+  <meta property="twitter:image" content="/assets/images/logo.png">
+  <meta property="twitter:image:alt" content="Zensical Action">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/logo.png">
+
+  <meta name="darkreader-lock">
+{% endblock %}
