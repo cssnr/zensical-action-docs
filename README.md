@@ -1,5 +1,7 @@
-[![Workflow Docs](https://img.shields.io/github/actions/workflow/status/cssnr/zensical-action-docs/dev.yaml?logo=cachet&label=dev)](https://github.com/cssnr/zensical-action-docs/actions/workflows/dev.yaml)
-[![Workflow Dev](https://img.shields.io/github/actions/workflow/status/cssnr/zensical-action-docs/docs.yaml?logo=cachet&label=docs)](https://github.com/cssnr/zensical-action-docs/actions/workflows/docs.yaml)
+[![Deployment Docs](https://img.shields.io/github/deployments/cssnr/zensical-action-docs/docs?logo=github&label=docs)](https://github.com/cssnr/zensical-action-docs/deployments/docs)
+[![Deployment Dev](https://img.shields.io/github/deployments/cssnr/zensical-action-docs/dev?logo=github&label=dev)](https://github.com/cssnr/zensical-action-docs/deployments/dev)
+[![Workflow Docs](https://img.shields.io/github/actions/workflow/status/cssnr/zensical-action-docs/docs.yaml?logo=cachet&label=docs)](https://github.com/cssnr/zensical-action-docs/actions/workflows/docs.yaml)
+[![Workflow Dev](https://img.shields.io/github/actions/workflow/status/cssnr/zensical-action-docs/dev.yaml?logo=cachet&label=dev)](https://github.com/cssnr/zensical-action-docs/actions/workflows/dev.yaml)
 [![GitHub Last Commit](https://img.shields.io/github/last-commit/cssnr/zensical-action-docs?logo=github&label=updated)](https://github.com/cssnr/zensical-action-docs/pulse)
 [![GitHub Repo Size](https://img.shields.io/github/repo-size/cssnr/zensical-action-docs?logo=bookstack&logoColor=white&label=repo%20size)](https://github.com/cssnr/zensical-action-docs?tab=readme-ov-file#readme)
 [![GitHub Contributors](https://img.shields.io/github/contributors-anon/cssnr/zensical-action-docs?logo=github)](https://github.com/cssnr/zensical-action-docs/graphs/contributors)
@@ -12,9 +14,9 @@
 
 # Zensical Action Docs
 
-[Documentation](https://zensical-action.cssnr.com/) for the [Zensical GitHub Action](https://github.com/cssnr/zensical-action) built with... [Zensical](https://github.com/zensical/zensical).
+- https://zensical-action.cssnr.com/
 
-Website: https://zensical-action.cssnr.com/
+[Documentation](https://zensical-action.cssnr.com/) for the [Zensical Action](https://github.com/cssnr/zensical-action) built with... [Zensical](https://github.com/zensical/zensical).
 
 - Docs Location: [docs](docs)
 - Configuration File: [zensical.toml](zensical.toml)

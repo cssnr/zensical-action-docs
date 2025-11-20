@@ -2,15 +2,15 @@
 icon: lucide/notebook-pen
 ---
 
-[![Zensical Action](assets/images/logo.png){ align=right width=96 }](https://github.com/cssnr/zensical-action?tab=readme-ov-file#readme)
-
 # :lucide-notebook-pen: Usage
+
+[![Zensical Action](assets/images/logo.png){ align=right width=96 }](https://github.com/cssnr/zensical-action?tab=readme-ov-file#readme)
 
 With no inputs the workflow reference is checked out, built, uploaded, and deployed to Pages.
 
-- [Inputs](#inputs)
-- [Permissions](#permissions)
-- [Outputs](#outputs)
+You can disable or customize any of these steps with the [Inputs](#inputs).
+Deploying to GitHub Pages requires specific [Permissions](#permissions).
+The [Outputs](#outputs) include the `page_url` and more.
 
 ## Inputs
 
@@ -18,7 +18,7 @@ With no inputs the workflow reference is checked out, built, uploaded, and deplo
 
 | Input              | Default&nbsp;Value | Description&nbsp;of&nbsp;the&nbsp;Input                                                          |
 | :----------------- | :----------------: | :----------------------------------------------------------------------------------------------- |
-| **version**        |      _Latest_      | Zensial Version                                                                                  |
+| **version**        |      _Latest_      | Zensical Version                                                                                 |
 | **python-version** |     _Default_      | Python Version (see [setup-uv](https://github.com/astral-sh/setup-uv?tab=readme-ov-file#inputs)) |
 | **uv-version**     |      _Latest_      | UV Version (see [setup-uv](https://github.com/astral-sh/setup-uv?tab=readme-ov-file#inputs))     |
 | **directory**      |        `.`         | Build Directory (relative to root)                                                               |
@@ -43,7 +43,7 @@ Default: `artifact`
 
 ### deploy
 
-This runs [actions/deploy-pages](https://github.com/actions/deploy-pages). Set to `false` to skip this.  
+This runs [actions/deploy-pages](https://github.com/actions/deploy-pages). Set to `false` to skip this.
 Make sure you have the required [permissions](#permissions).
 
 If you set [upload](#upload) to anything except `github-pages` this step will be skipped.
@@ -59,6 +59,8 @@ permissions:
   pages: write
   id-token: write
 ```
+
+Permissions reference for [Workflows](https://docs.github.com/en/actions/writing-workflows/choosing-what-your-workflow-does/controlling-permissions-for-github_token), [Actions](https://docs.github.com/en/actions/security-for-github-actions/security-guides/automatic-token-authentication), and [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages).
 
 ## Outputs
 

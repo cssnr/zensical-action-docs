@@ -2,9 +2,9 @@
 icon: simple/githubactions
 ---
 
-[![Zensical Action](assets/images/logo.png){ align=right width=96 }](https://github.com/cssnr/zensical-action?tab=readme-ov-file#readme)
-
 # :simple-githubactions: Examples
+
+[![Zensical Action](assets/images/logo.png){ align=right width=96 }](https://github.com/cssnr/zensical-action?tab=readme-ov-file#readme)
 
 Zensical Action example [Workflows](#workflows) and [Repositories](#repositories).
 

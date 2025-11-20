@@ -2,9 +2,9 @@
 icon: lucide/rocket
 ---
 
-[![Zensical Action](assets/images/logo.png){ align=right width=96 }](https://github.com/cssnr/zensical-action?tab=readme-ov-file#readme)
-
 # :lucide-rocket: Get Started
+
+[![Zensical Action](assets/images/logo.png){ align=right width=96 }](https://github.com/cssnr/zensical-action?tab=readme-ov-file#readme)
 
 [![GitHub Tag Major](https://img.shields.io/github/v/tag/cssnr/zensical-action?sort=semver&filter=!v*.*&logo=git&logoColor=white&labelColor=585858&label=%20)](https://github.com/cssnr/zensical-action/tags)
 [![GitHub Tag Minor](https://img.shields.io/github/v/tag/cssnr/zensical-action?sort=semver&filter=!v*.*.*&logo=git&logoColor=white&labelColor=585858&label=%20)](https://github.com/cssnr/zensical-action/releases)
@@ -27,7 +27,7 @@ Zensical GitHub Action to checkout, build, upload, and deploy [Zensical Docs](ht
 
 ## Features
 
-- Build Docs
+- Build Documentation
 - Upload Artifact
 - Deploy to Pages
 
