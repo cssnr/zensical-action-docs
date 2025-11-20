@@ -14,6 +14,9 @@
 
 # Zensical Action Docs
 
+<a title="Zensical Action" href="https://zensical-action.cssnr.com/" target="_blank">
+<img alt="Zensical Action" align="right" width="128" height="auto" src="https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zensical-action/logo160.png"></a>
+
 [Documentation](https://zensical-action.cssnr.com/) for the [Zensical GitHub Action](https://github.com/cssnr/zensical-action) built with... [Zensical](https://github.com/zensical/zensical).
 
 Website: https://zensical-action.cssnr.com/
