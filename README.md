@@ -14,9 +14,9 @@
 
 # Zensical Action Docs
 
-- https://zensical-action.cssnr.com/
+[Documentation](https://zensical-action.cssnr.com/) for the [Zensical GitHub Action](https://github.com/cssnr/zensical-action) built with... [Zensical](https://github.com/zensical/zensical).
 
-[Documentation](https://zensical-action.cssnr.com/) for the [Zensical Action](https://github.com/cssnr/zensical-action) built with... [Zensical](https://github.com/zensical/zensical).
+Website: https://zensical-action.cssnr.com/
 
 - Docs Location: [docs](docs)
 - Configuration File: [zensical.toml](zensical.toml)
