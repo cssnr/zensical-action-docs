@@ -23,6 +23,7 @@ jobs:
         uses: cssnr/zensical-action@scripts
         with:
           upload: "artifact"
+          project: true
           #prepare: 'sed -i "s/>Zensical</>Zensical ${ZENSICAL_VERSION}</" zensical.toml'
           prepare: 'sed -i "s/>Zensical<\/a>/>Zensical<\/a> v${ZENSICAL_VERSION}/" zensical.toml'
 
