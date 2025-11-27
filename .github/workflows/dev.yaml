@@ -23,7 +23,7 @@ jobs:
         uses: cssnr/zensical-action@scripts
         with:
           upload: "artifact"
-          prepare: 'sed "s/>Zensical</>Zensical ${ZENSICAL_VERSION}</" test'
+          prepare: 'sed "s/>Zensical</>Zensical ${ZENSICAL_VERSION}</" zensical.toml'
 
   deploy:
     name: "Deploy"
