@@ -31,19 +31,19 @@ The [Outputs](#outputs) include the `page_url` and more.
 | [post](#preparepost)    |         -          | Post script (after build)                                                                        |
 | **summary**             |       `true`       | Add Job Summary to Workflow                                                                      |
 
-### upload
+#### upload
 
 Determines the type of artifact uploaded. For a normal artifact use `artifact`.
 
 Default: `github-pages`
 
-### name
+#### name
 
 Artifact Name if [upload](#upload) is set to `artifact`.
 
 Default: `artifact`
 
-### deploy
+#### deploy
 
 This runs [actions/deploy-pages](https://github.com/actions/deploy-pages). Set to `false` to skip this.
 Make sure you have the required [permissions](#permissions).
@@ -105,3 +105,9 @@ Example Outputs.
 ```
 
 See the [Examples](examples.md) for more...
+
+&nbsp;
+
+!!! question
+
+    If you need **help** getting started or run into any issues, [support](support.md) is available!

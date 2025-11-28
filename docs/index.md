@@ -20,10 +20,11 @@ icon: lucide/rocket
 [![Discord](https://img.shields.io/discord/899171661457293343?logo=discord&logoColor=white&label=discord&color=7289da)](https://discord.gg/wXy6m2X8wY)
 [![Ko-fi](https://img.shields.io/badge/Ko--fi-72a5f2?logo=kofi&label=support)](https://ko-fi.com/cssnr)
 
-Zensical GitHub Action to checkout, build, upload, and deploy [Zensical Docs](https://github.com/zensical/zensical) to GitHub Pages.
+[![GitHub](https://img.shields.io/badge/github-232925?style=for-the-badge&logo=github)](https://github.com/cssnr/zensical-action?tab=readme-ov-file#readme)
+[![Marketplace](https://img.shields.io/badge/marketplace-2088ff?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/marketplace/actions/zensical-action)
+[![Docs](https://img.shields.io/badge/docs-FF7735?style=for-the-badge&logo=materialformkdocs&logoColor=white)](https://github.com/cssnr/zensical-action-docs)
 
-- https://github.com/cssnr/zensical-action
-- https://github.com/marketplace/actions/zensical-action
+Zensical GitHub Action to checkout, build, upload, and deploy [Zensical Docs](https://github.com/zensical/zensical) to GitHub Pages.
 
 ## Features
 
