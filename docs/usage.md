@@ -16,18 +16,20 @@ The [Outputs](#outputs) include the `page_url` and more.
 
 **All Inputs are Optional.**
 
-| Input              | Default&nbsp;Value | Description&nbsp;of&nbsp;the&nbsp;Input                                                          |
-| :----------------- | :----------------: | :----------------------------------------------------------------------------------------------- |
-| **version**        |      _Latest_      | Zensical Version                                                                                 |
-| **python-version** |     _Default_      | Python Version (see [setup-uv](https://github.com/astral-sh/setup-uv?tab=readme-ov-file#inputs)) |
-| **uv-version**     |      _Latest_      | UV Version (see [setup-uv](https://github.com/astral-sh/setup-uv?tab=readme-ov-file#inputs))     |
-| **directory**      |        `.`         | Build Directory (relative to root)                                                               |
-| **path**           |       `site`       | Site Path (relative to root)                                                                     |
-| **checkout**       |       `true`       | Runs: [actions/checkout](https://github.com/actions/checkout)                                    |
-| [upload](#upload)  |   `github-pages`   | Upload: [`github-pages`,`artifact`,`false`]                                                      |
-| [name](#name)      |     `artifact`     | Artifact Name if [upload](#upload) is `artifact`                                                 |
-| [deploy](#deploy)  |       `true`       | Deploy to Pages (see [deploy](#deploy))                                                          |
-| **summary**        |       `true`       | Add Job Summary to Workflow                                                                      |
+| Input                   | Default&nbsp;Value | Description&nbsp;of&nbsp;the&nbsp;Input                                                          |
+| :---------------------- | :----------------: | :----------------------------------------------------------------------------------------------- |
+| **version**             |      _Latest_      | Zensical Version                                                                                 |
+| **python-version**      |     _Default_      | Python Version (see [setup-uv](https://github.com/astral-sh/setup-uv?tab=readme-ov-file#inputs)) |
+| **uv-version**          |      _Latest_      | UV Version (see [setup-uv](https://github.com/astral-sh/setup-uv?tab=readme-ov-file#inputs))     |
+| **directory**           |        `.`         | Build Directory (relative to root)                                                               |
+| **path**                |       `site`       | Site Path (relative to root)                                                                     |
+| **checkout**            |       `true`       | Runs: [actions/checkout](https://github.com/actions/checkout)                                    |
+| [upload](#upload)       |   `github-pages`   | Upload: [`github-pages`,`artifact`,`false`]                                                      |
+| [name](#name)           |     `artifact`     | Artifact Name if [upload](#upload) is `artifact`                                                 |
+| [deploy](#deploy)       |       `true`       | Deploy to Pages (see [deploy](#deploy))                                                          |
+| [prepare](#preparepost) |         -          | Prepare script (before build)                                                                    |
+| [post](#preparepost)    |         -          | Post script (after build)                                                                        |
+| **summary**             |       `true`       | Add Job Summary to Workflow                                                                      |
 
 ### upload
 
@@ -49,6 +51,18 @@ Make sure you have the required [permissions](#permissions).
 If you set [upload](#upload) to anything except `github-pages` this step will be skipped.
 
 Default: `true`
+
+#### prepare/post
+
+Prepare runs after install but before build. Post runs after the build.
+
+The paths are relative to the specified `directory`.
+
+Additional Environment Variables available in these scripts.
+
+| Variable           | Description           |
+| ------------------ | --------------------- |
+| `ZENSICAL_VERSION` | Zensical Version Used |
 
 ## Permissions
 

@@ -28,8 +28,9 @@ Zensical GitHub Action to checkout, build, upload, and deploy [Zensical Docs](ht
 ## Features
 
 - Build Documentation
-- Upload Artifact
-- Deploy to Pages
+- Upload the Artifact
+- Deploy to GitHub Pages
+- Run Prepare/Post Scripts
 
 You can customize or disable each step with the [Inputs](usage.md#inputs).
 
