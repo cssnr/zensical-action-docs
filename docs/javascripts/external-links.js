@@ -1,3 +1,5 @@
+// Open External Links in New Tab
+
 document.addEventListener('DOMContentLoaded', domContentLoaded)
 
 const observer = new MutationObserver(mutationObserver)
@@ -19,6 +21,7 @@ function mutationObserver(mutationList) {
         mutation.addedNodes.forEach((el) => {
             // console.debug('el:', el)
             if (el.classList?.contains('md-container')) {
+                // console.debug('md-container:', el)
                 for (const el of document.querySelectorAll('a')) {
                     processLink(el)
                 }
