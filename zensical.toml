@@ -12,9 +12,9 @@ site_url = "https://zensical-action.cssnr.com/"
 
 # https://zensical.org/docs/setup/basics/#copyright
 copyright = """
-<a href="https://github.com/cssnr/zensical-action-docs" target="_blank">Zensical Action Docs</a>
+<a href="https://github.com/cssnr/zensical-action-docs">Zensical Action Docs</a>
 <br>
-Built with <a href="https://github.com/zensical/zensical" target="_blank">Zensical</a>
+Built with <a href="https://github.com/zensical/zensical">Zensical</a>
 """
 
 # https://zensical.org/docs/setup/navigation/
@@ -29,7 +29,7 @@ nav = [
 #extra_css = ["assets/stylesheets/extra.css"]
 
 # https://zensical.org/docs/customization/#additional-javascript
-#extra_javascript = ["assets/javascript/extra.js"]
+extra_javascript = ["javascripts/external-links.js"]
 
 # ----------------------------------------------------------------------------
 # Section for configuring theme options
