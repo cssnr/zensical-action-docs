@@ -1,40 +1,12 @@
 // Open External Links in New Tab
 
-document.addEventListener('DOMContentLoaded', domContentLoaded)
-
-const observer = new MutationObserver(mutationObserver)
-
-function domContentLoaded() {
+// noinspection JSUnresolvedReference,JSIgnoredPromiseFromCall
+document$.subscribe(function () {
+    // console.log('processing:', window.location)
     for (const el of document.querySelectorAll('a')) {
-        processLink(el)
+        if (el.host !== globalThis.location.host) {
+            el.target = '_blank'
+            el.rel = 'noopener'
+        }
     }
-    observer.observe(document, {
-        childList: true,
-        subtree: true,
-    })
-}
-
-function mutationObserver(mutationList) {
-    // console.debug('mutationList:', mutationList)
-    for (const mutation of mutationList) {
-        // console.debug('mutation:', mutation)
-        mutation.addedNodes.forEach((el) => {
-            // console.debug('el:', el)
-            if (el.classList?.contains('md-container')) {
-                // console.debug('md-container:', el)
-                for (const el of document.querySelectorAll('a')) {
-                    processLink(el)
-                }
-            }
-        })
-    }
-}
-
-function processLink(el) {
-    // console.debug('checking el:', el)
-    if (el.host !== window.location.host) {
-        // console.debug('updating el:', el)
-        el.target = '_blank'
-        el.rel = 'noopener'
-    }
-}
+})
