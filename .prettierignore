@@ -1,16 +1,8 @@
-# IDE
-.idea/
-.vscode/
-
-# Build
-dist/
-node_modules/
-
 # Tools
-.ruff_cache/
-.mypy_cache/
-.pytest_cache/
+dist/
+package-lock.json
 
 # Files
-package-lock.json
-*.html
+.github/disabled/
+.github/PULL_REQUEST_TEMPLATE/
+.github/pull_request_template.md

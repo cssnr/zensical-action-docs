@@ -21,7 +21,7 @@ or [Q&A](https://github.com/cssnr/zensical-action/discussions/categories/q-a).
 If you want to see a new feature, start a discussion in
 the [Feature Requests](https://github.com/cssnr/zensical-action/discussions/categories/feature-requests) section.
 
-[:fontawesome-brands-github: Start A Discussion](https://github.com/cssnr/zensical-action/discussions){ .md-button .md-button--primary }
+[:fontawesome-brands-github: &nbsp; Start A Discussion](https://github.com/cssnr/zensical-action/discussions){ .md-button .md-button--primary }
 
 ## GitHub Issues
 
@@ -29,7 +29,7 @@ If you run into any problems or find a bug, please [open an issue](https://githu
 
 **These reports are treated with the highest priority.**
 
-[:lucide-circle-alert: Report an Issue](https://github.com/cssnr/zensical-action/issues){ .md-button .md-button--primary }
+[:lucide-circle-alert: &nbsp; Report an Issue](https://github.com/cssnr/zensical-action/issues){ .md-button .md-button--primary }
 
 ## Discord Chat
 
@@ -37,7 +37,7 @@ You can chat with us about anything [on discord](https://discord.gg/wXy6m2X8wY).
 
 From here you can contact me directly, `Shane@111150265075298304`.
 
-[:fontawesome-brands-discord: Chat on Discord](https://discord.gg/wXy6m2X8wY){ .md-button .md-button--primary }
+[:fontawesome-brands-discord: &nbsp; Chat on Discord](https://discord.gg/wXy6m2X8wY){ .md-button .md-button--primary }
 
 ## General Feedback
 
@@ -45,7 +45,7 @@ You can submit general feedback via the [web form](https://cssnr.github.io/feedb
 
 _This method is not recommended to [report issues](https://github.com/cssnr/zensical-action/issues) or [request features](https://github.com/cssnr/zensical-action/discussions/categories/feature-requests)._
 
-[:lucide-send: Send Feedback](https://cssnr.github.io/feedback/?app=zensical-action){ .md-button .md-button--primary }
+[:lucide-send: &nbsp; Send Feedback](https://cssnr.github.io/feedback/?app=zensical-action){ .md-button .md-button--primary }
 
 ## Additional Links
 
@@ -55,7 +55,7 @@ _This method is not recommended to [report issues](https://github.com/cssnr/zens
 
 Additionally, if you would like a [new action](https://github.com/cssnr/actions/discussions/categories/github-actions) created, let us know...
 
-[:lucide-activity: Request New Action](https://github.com/cssnr/actions/discussions/categories/github-actions){ .md-button .md-button--primary }
+[:lucide-activity: &nbsp; Request New Action](https://github.com/cssnr/actions/discussions/categories/github-actions){ .md-button .md-button--primary }
 
 &nbsp;
 

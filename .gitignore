@@ -1,14 +1,10 @@
+# Generic
 .idea/
 *.iml
 .vscode/
-.venv/
-venv/
-__pycache__/
-*.egg-info/
-dist/
+node_modules/
+.*cache
 *.log
-*.pyc
-.coverage
-coverage.xml
-site/
-.cache/
+eslint_report.json
+# App
+site
