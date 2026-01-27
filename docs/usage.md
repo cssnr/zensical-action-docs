@@ -23,6 +23,7 @@ The [Outputs](#outputs) include the `page_url` and more.
 | **uv-version**          |      _Latest_      | UV Version (see [setup-uv](https://github.com/astral-sh/setup-uv?tab=readme-ov-file#inputs))     |
 | **directory**           |        `.`         | Build Directory (relative to root)                                                               |
 | **path**                |       `site`       | Site Path (relative to root)                                                                     |
+| **args**                |        `-c`        | Build Arguments passed to zensical                                                               |
 | **checkout**            |       `true`       | Runs: [actions/checkout](https://github.com/actions/checkout)                                    |
 | [upload](#upload)       |   `github-pages`   | Upload: [`github-pages`,`artifact`,`false`]                                                      |
 | [name](#name)           |     `artifact`     | Artifact Name if [upload](#upload) is `artifact`                                                 |

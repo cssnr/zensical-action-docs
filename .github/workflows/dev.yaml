@@ -20,7 +20,7 @@ jobs:
     timeout-minutes: 5
     steps:
       - name: "Zensical Action"
-        uses: cssnr/zensical-action@v1
+        uses: cssnr/zensical-action@master
         with:
           upload: "artifact"
           #prepare: 'sed -i "s/>Zensical</>Zensical ${ZENSICAL_VERSION}</" zensical.toml'
